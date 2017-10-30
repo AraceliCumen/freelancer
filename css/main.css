@@ -123,6 +123,7 @@ hr{
   text-align: center;
   font-size: 2em;
   font-weight: bold;
+  background-color: white;
 }
 
 .divsecondsection hr{
@@ -132,4 +133,55 @@ hr{
 .divsecondsection span i{
   font-size: 30px;
   color: #2c3e50;
+}
+
+.image{
+  margin-left: 110px;
+  margin-right: 100px;
+}
+.colum{
+  width: 33%;
+  float: left;
+  /*overflow: auto;*/
+}
+
+.secondsection .image img{
+  max-width: 100%;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+.threesection{
+  background-color: #18bc9c;
+  margin-top: 650px;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.divthreesection hr{
+  background-color: #fff;
+}
+
+.divthreesection span i{
+  font-size: 30px;
+  color: #fff;
+}
+
+.divtext{
+  margin-left: 230px;
+  margin-right: 230px;
+  text-align: center;
+  color: white;
+}
+
+.divtext p{
+  width: 48%;
+  /*padding: 20px;*/
+  float: left;
+  font-size: 20px;
+  margin-right: 20px;
 }
