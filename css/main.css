@@ -156,6 +156,7 @@ hr{
   background-color: #18bc9c;
   margin-top: 650px;
   padding-top: 100px;
+  margin-bottom: 100px;
   text-align: center;
   font-size: 2em;
   font-weight: bold;
@@ -183,5 +184,9 @@ hr{
   /*padding: 20px;*/
   float: left;
   font-size: 20px;
-  margin-right: 20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.foursection{
+  padding-top: 650px;
 }
