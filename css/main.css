@@ -3,8 +3,6 @@
  */
 
 
- /*CLASES REUTILIZABLES*/
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -71,14 +69,67 @@ ul{
 
 .firtssection{
   background-color: #18bc9c;
+}
 
+.firtssection #principal {
+  font-size: 4.75em;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  display: block;
+}
+
+.divfirtssection{
+  text-align: center;
+}
+
+.divfirtssection hr{
+  background-color: white;
+}
+
+.divfirtssection span i{
+  font-size: 30px;
+  color: white;
 }
 
 hr{
+  border: none;
   display: inline-block;
+  width: 110px;
+  height: 5px;
 }
 
 #profile{
   text-align: center;
-  margin-top: 60px;
+  margin-top: 68px;
+}
+
+#profile img{
+  padding-top: 80px;
+  padding-bottom: 30px;
+}
+
+.firtssection p{
+  margin-top: 15px;
+  padding-bottom: 100px;;
+  font-size:1.75em;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+}
+
+.secondsection{
+  margin-top: 90px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.divsecondsection hr{
+  background-color: #2c3e50;
+}
+
+.divsecondsection span i{
+  font-size: 30px;
+  color: #2c3e50;
 }
