@@ -13,9 +13,10 @@
 
   <header>
     <nav>
-      <a class="start text-uppercase tipografia-monserrat">
+      <a class="start text-uppercase tipografia-monserrat" href="index.html">
        start bootstrap
      </a>
+
       <ul>
         <li class="text-uppercase tipografia-monserrat">portafolio</li>
         <li class="text-uppercase tipografia-monserrat">about</li>
@@ -40,7 +41,9 @@
     </section>
 
     <section class="secondsection">
-      <h1 class="text-uppercase tipografia-monserrat">portafolio</h1>
+      <div class="titlesc">
+        <h1 class="text-uppercase tipografia-monserrat">portafolio</h1>
+      </div>
       <div class="divsecondsection">
         <hr>
         <span>
@@ -48,7 +51,7 @@
         </span>
         <hr>
       </div>
-      <div class="image">
+      <div class="columimage">
         <div class="colum">
           <img src="assets/images/portfolio/cabin.png" alt="cabin">
           <img src="assets/images/portfolio/game.png" alt="game">
@@ -61,8 +64,8 @@
           <img src="assets/images/portfolio/circus.png" alt="circus">
           <img src="assets/images/portfolio/submarine.png" alt="submarine">
         </div>
-
       </div>
+
     </section>
 
     <section class="threesection">
@@ -74,24 +77,27 @@
         </span>
         <hr>
       </div>
+
       <div class="divtext">
         <p class="tipografia-lato">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
 
         <p class="tipografia-lato">Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
-
       </div>
 
-      <button type="button" name="button">Download Theme</button>
+        <button type="button" name="button"> <i class="fa fa-download" aria-hidden="true"></i> Download Theme</button>
+
 
     </section>
 
     <section class="foursection">
-      <h1>contact me</h1>
-      <hr>
-      <span>
-        <i class="fa fa-star" aria-hidden="true"></i>
-      </span>
-      <hr>
+      <h1 class="text-uppercase tipografia-monserrat">contact me</h1>
+      <div class="divfoursection">
+        <hr>
+        <span>
+          <i class="fa fa-star" aria-hidden="true"></i>
+        </span>
+        <hr>
+      </div>
       <form>
           <input type="text" placeholder="Name">
           <input type="text" placeholder="Email Address">
@@ -103,7 +109,7 @@
 
     <section class="fivesection">
       <div class="columns">
-        <h2>location</h2>
+        <h2 class="text-uppercase tipografia-monserrat">location</h2>
         <p>3481 Melrose Place
           <br>
           Beverly Hills, CA 90210
@@ -111,26 +117,31 @@
 
       </div>
       <div class="columns">
-        <h2>around the web</h2>
+        <h2 class="text-uppercase tipografia-monserrat">around the web</h2>
         <div class="icons-redsotials">
-          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <a href="#">
+            <i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-google-plus" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+          <a href="#">
+            <i class="fa fa-fw fa-dribbble" aria-hidden="true"></i>
+          </a>
+
         </div>
-        <div class="">
-          <i class="fa fa-google-plus" aria-hidden="true"></i>
-        </div>
-        <div>
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-        </div>
-        <div>
-          <i class="fa fa-linkedin" aria-hidden="true"></i>
-        </div>
-        <div>
-          <i class="fa fa-fw fa-dribbble" aria-hidden="true"></i>
-        </div>
+
       </div>
+
       <div class="columns">
-        <h2>about freelancer</h2>
-        <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+        <h2 class="text-uppercase tipografia-monserrat">about freelancer</h2>
+        <p class="text">Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
       </div>
     </section>
   </main>
