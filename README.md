@@ -30,7 +30,7 @@ a lograr:
 
 ## Results
 
-![Freelancer Website](docs/resultS/result.png)
+![Freelancer Results](docs/results/result.png)
 
 ## Consideraciones
 
